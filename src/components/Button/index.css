@@ -1,22 +1,58 @@
+/* Основные стили кнопки */
 .my-button {
-    min-width: 150px;
-    height: 40px;
-    
     border: none;
-    border-radius: 13%;
+    border-radius: 8px;
     cursor: pointer;
-
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  
+  /* Размеры кнопок */
+  .my-button--sm {
+    min-width: 100px;
+    height: 30px;
+    font-size: 14px;
+  }
+  
+  .my-button--md {
+    min-width: 120px;
+    height: 40px;
     font-size: 16px;
-    
-}
-
-.my-button--primary {
-    background-color: #234256;
+  }
+  
+  .my-button--lg {
+    min-width: 140px;
+    height: 50px;
+    font-size: 18px;
+  }
+  
+  /* Primary вариант */
+  .my-button--primary {
+    background-color: royalblue;
     color: white;
+  }
+  
+  .my-button--primary:hover {
+    background-color: #234256;
+  }
+  
+  /* Bordered вариант */
+  .my-button--bordered {
+    background-color: white;
+    color: royalblue;
+    border: 2px solid royalblue;
+  }
+  
+  .my-button--bordered:hover {
+    background-color: royalblue;
+    color: white;
+  }
+  
+  /* Disabled состояние */
+  .my-button--disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
     border: none;
-}
-
-.my-button--bordered {
-    background-color: none;
-    border: #234256;
-}
+  }
+  

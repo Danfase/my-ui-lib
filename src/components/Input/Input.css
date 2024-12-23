@@ -1,0 +1,51 @@
+/* Контейнер для поля */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Стили для метки */
+  .my-label {
+    font-size: 14px;
+    color: black;
+  }
+  
+  .my-label--danger {
+    color: red;
+  }
+  
+  /* Стили для поля ввода */
+  .my-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .my-input:focus {
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
+  }
+  
+  /* Danger состояние */
+  .my-input--danger {
+    border-color: red;
+    color: red;
+  }
+  
+  .my-input--danger:focus {
+    border-color: darkred;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+  }
+  
+  /* Disabled состояние */
+  .my-input--disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+    color: #999;
+  }
+  

@@ -1,9 +1,8 @@
 import "./index.css";
 
 export function Button(props) {
-    const {variant = "primary", children} = props;
+    const {type = "button", onClick, disabled = false, size = "md", variant = "primary", children} = props;
+    const className = `my-button my-button--${variant} my-button--${size} ${disabled ? "my-button--disabled" : ""}`;
 
-    const className = `my-button my-button--${variant}`;
-
-    return <button className="my-button">{children}</button>;
+    return <button type={type} onClick={onClick} className={className} disabled={disabled}> {children} </button>;
 }

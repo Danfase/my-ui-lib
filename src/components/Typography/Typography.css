@@ -1,0 +1,21 @@
+/* Базовый стиль для типографики */
+.typography {
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0 0 1em; /* Отступ снизу */
+    text-indent: 1.5em; /* Отступ для первой строки */
+  }
+  
+  /* Размеры текста */
+  .typography--sm {
+    font-size: 14px;
+  }
+  
+  .typography--md {
+    font-size: 16px;
+  }
+  
+  .typography--lg {
+    font-size: 20px;
+  }
+  
