@@ -1,7 +1,10 @@
 .my-tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    position: relative;
+    /* display: inline-block; */
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    display: grid;
+    grid-template-rows: repeat(4);
+    justify-content: center;
 }
 
 .my-tooltip .my-tooltiptext {
@@ -42,7 +45,7 @@
 }
 
 /* Bottom Tooltip */
-.my-tooltip .my-tooltiptext- {
+.my-tooltip .my-tooltiptext-bottom {
     width: 120px;
     top: 100%;
     left: 50%;

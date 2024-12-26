@@ -80,45 +80,25 @@ function App() {
 
 
     
-    <Heading heading = "1">
-      H1
-    </Heading>
+    <Heading heading = "1">H1. Heading.</Heading>
 
-    <Heading heading = "2">
-      H2
-    </Heading>
+    <Heading heading = "2">H2. Heading.</Heading>
 
-    <Heading heading = "3">
-      H3
-    </Heading>
+    <Heading heading = "3">H3. Heading.</Heading>
 
-    <Heading heading = "4">
-      H4
-    </Heading>
+    <Heading heading = "4">H4. Heading.</Heading>
 
-    <Heading heading = "5">
-      H5
-    </Heading>
+    <Heading heading = "5">H5. Heading.</Heading>
 
-    <Heading heading = "6">
-      H6
-    </Heading>
+    <Heading heading = "6">H6. Heading.</Heading>
 
-    <Tooltip position = "top">
-      Tooltip Top
-    </Tooltip>
+    <Tooltip position = "top">Tooltip Top</Tooltip>
 
-    <Tooltip position = "left">
-      Tooltip Left
-    </Tooltip>
+    <Tooltip position = "left">Tooltip Left</Tooltip>
 
-    <Tooltip position = "right">
-      Tooltip Right
-    </Tooltip>
+    <Tooltip position = "right">Tooltip Right</Tooltip>
 
-    <Tooltip position = "bottom">
-      Tooltip Bottom
-    </Tooltip>
+    <Tooltip position = "bottom">Tooltip Bottom</Tooltip>
 
     <Accordion title="Accordion 1" defaultOpen>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

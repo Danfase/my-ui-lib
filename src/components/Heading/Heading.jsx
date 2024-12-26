@@ -1,10 +1,10 @@
 import "./Heading.css";
 
 export function Heading(props) {
-    const {heading = '1'} = props;
-    const className = `my-heading my-heading--${heading}`;
+    const {heading = '1', children} = props;
+    const className = `my-heading my-heading__${heading}`;
 
-    return <p className={className}></p>;
+    return <p className={className}>{children}</p>;
 }
 
 export default Heading;
