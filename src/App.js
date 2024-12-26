@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Button } from "./components/Button";
 import Accordion from "./components/Accordion/Accordion";
+import Heading from "./components/Heading/Heading";
+import Tooltip from "./components/Tooltip/Tooltip"
 // import { Input } from "./components/Input/Input";
 import "./index.css"
 
@@ -26,7 +28,7 @@ function App() {
   }, []);
 
   return <div>
-    
+
     <div>
       <h1>Crypto Tracker</h1>
       {loading ? (
@@ -77,6 +79,46 @@ function App() {
     {/* <Input label="Name" placeholder="Danger" danger value="Danger" onChange={() => {}}/> */}
 
 
+    
+    <Heading heading = "1">
+      H1
+    </Heading>
+
+    <Heading heading = "2">
+      H2
+    </Heading>
+
+    <Heading heading = "3">
+      H3
+    </Heading>
+
+    <Heading heading = "4">
+      H4
+    </Heading>
+
+    <Heading heading = "5">
+      H5
+    </Heading>
+
+    <Heading heading = "6">
+      H6
+    </Heading>
+
+    <Tooltip position = "top">
+      Tooltip Top
+    </Tooltip>
+
+    <Tooltip position = "left">
+      Tooltip Left
+    </Tooltip>
+
+    <Tooltip position = "right">
+      Tooltip Right
+    </Tooltip>
+
+    <Tooltip position = "bottom">
+      Tooltip Bottom
+    </Tooltip>
 
     <Accordion title="Accordion 1" defaultOpen>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

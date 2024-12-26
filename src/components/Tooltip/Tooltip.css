@@ -1,0 +1,50 @@
+.my-tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+.my-tooltip .my-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: royalblue;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 40px;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.my-tooltip:hover .my-tooltiptext {
+    visibility: visible;
+}
+
+/* Right tooltip */
+.my-tooltip .my-tooltiptext-right {
+    top: -5px;
+    left: 105%;
+}
+
+/* Left Tooltip */
+.my-tooltip .my-tooltiptext-left {
+    top: -5px;
+    right: 105%;
+}
+
+/* Top Tooltip */
+.my-tooltip .my-tooltiptext-top {
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+/* Bottom Tooltip */
+.my-tooltip .my-tooltiptext- {
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}

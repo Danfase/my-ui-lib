@@ -1,0 +1,23 @@
+.my-heading {
+    width: 100%;
+    text-align: left;
+}
+
+.my-heading_1{
+    font-size: 32px;
+}
+.my-heading_2{
+    font-size: 24px;
+}
+.my-heading_3{
+    font-size: 19px;
+}
+.my-heading_4{
+    font-size: 16px;
+}
+.my-heading_5{
+    font-size: 14px;
+}
+.my-heading_6{
+    font-size: 12px;
+}
